@@ -1,4 +1,4 @@
-name: Build Oneplus 8T (CrDroid12)
+name: Build Oneplus 8T (CrDroid12 A16)
 
 on:
   workflow_call:
@@ -46,7 +46,7 @@ env:
   NEED_DTBO : false
   NEED_SAFE_DTBO : false
 
-  ROM_TEXT : "crdroid_12"
+  ROM_TEXT : "crdroid12_a16"
 
   # Other env
   PYTHON_VERSION: "3" # Only 2(Ubuntu 22.04 and Ubuntu 20.04) or 3(Any OS Versions).
@@ -91,7 +91,7 @@ env:
 
 jobs:
   build-kernel:
-    name: Oneplus 8T (CrDroid_12)
+    name: Oneplus 8T (CrDroid12 A16)
     runs-on: ubuntu-latest # u can changed to ubuntu 22.04, and need container set ubuntu-latest
     # container: ubuntu:bionic # if u need use arch linux -> archlinux/archlinux:latest or ubuntu 20.04 -> ubuntu:focal
     env:
