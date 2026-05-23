@@ -13,7 +13,7 @@ env:
   EXTRA_CMDS : "BRAND_SHOW_FLAG=oneplus LD=ld.lld LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/The-Anomalist/Singularity.git"
-  KERNEL_BRANCH : "upstream-latest"
+  KERNEL_BRANCH : "Evolved"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.0/LLVM-20.1.0-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
